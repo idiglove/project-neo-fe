@@ -1,32 +1,20 @@
+import ProjectNeoLogo from "../../assets/project-neo-logo.svg";
 export default function Index() {
   return (
-    <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
-      <h1>Welcome to Remix</h1>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/blog"
-            rel="noreferrer"
-          >
-            15m Quickstart Blog Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://remix.run/tutorials/jokes"
-            rel="noreferrer"
-          >
-            Deep Dive Jokes App Tutorial
-          </a>
-        </li>
-        <li>
-          <a target="_blank" href="https://remix.run/docs" rel="noreferrer">
-            Remix Docs
-          </a>
-        </li>
-      </ul>
+    <div
+      style={{
+        fontFamily: "system-ui, sans-serif",
+        lineHeight: "1.4",
+      }}
+    >
+      <div>
+        <div className="absolute flex items-center h-20 left-56 top-32">
+          <img src={ProjectNeoLogo} alt="logo" />
+          <span className="mr-3 text-white">About</span>
+          <span className="mr-3 text-white">Content</span>
+          <span className="mr-3 text-white">Login</span>
+        </div>
+      </div>
     </div>
   );
 }
