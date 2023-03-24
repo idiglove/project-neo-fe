@@ -10,6 +10,10 @@
       "DOM.Iterable",
       "ES2019"
     ],
+    "types": [
+      "cypress",
+      "@testing-library/cypress"
+    ],
     "isolatedModules": true,
     "esModuleInterop": true,
     "jsx": "react-jsx",
